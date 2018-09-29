@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, world! Nicely done. You have now seen code deploy in action.")
+    return HttpResponse("Hello, world! Nicely done. Another change.")
 
